@@ -34,7 +34,7 @@ hbs.registerHelper('screamIt', (text) => {
 app.get('/', (req, res) => {
   res.render("home.hbs", {
     pageTitle: 'Home Page',
-    welcomeMessage: 'Bienvenido al TEAMO, haz click en el link de Projects'
+    welcomeMessage: 'Welcome to the home page'
   });
 });
 
